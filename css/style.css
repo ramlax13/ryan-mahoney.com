@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*		 	{margin: 0; padding: 0; }
+body		{ color: white; font: 18px Helvetica, serif; background: #000 url(../images/background.jpg) fixed no-repeat; }
+a			{text-decoration: none; color:#CCC;}
+b			{text-decoration: underline; color:#CCC;font: 18px Helvetica, serif;}
+a img		{border:0;}
+
+#page-wrap	{ width: 1000px; margin: 98px 0 0 205px; overflow:hidden; }
+
+#main-content {position: relative; z-index: 1; float: left; background: rgba(62,62,62,0.6); padding: 20px; width: 632px; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px;    }
+#logo		{position: absolute; top: 40px; left: 210px; z-index: 50;}
+
+#sidebar {float: right; width: 300px;     }
+#sidebar h4 {background: rgba(62,62,62,0.6); padding: 20px 20px 0 20px; width: 220px; -moz-border-radius: 20px 20px 0 0; -webkit-border-top-left-radius: 20px; -webkit-border-top-right-radius: 20px; border-radius:20px 20px 0 0; margin: 0 0 0 -10px; font: 30px Helvetica, serif; color: #CCC} 
+#sidebar h5 {background: rgba(62,62,62,0.6); padding: 10px 20px 20px 20px; width: 220px; -moz-border-radius:0 0 20px 20px; -webkit-border-bottom-left-radius: 20px; -webkit-border-bottom-right-radius: 20px; border-radius:0 0 20px 20px; margin: 0 0 0 -10px; font: 18px Helvetica, serif; color:#CCC;}
+#contact-box  {list-style: none; margin: 0 0 20px 0; padding: 3px 0;}
+
+
+#main-nav {list-style: none; margin: 20px 0 50px 0;}
+#main-nav li { font: 28px Helvetica, serif;   }
+#main-nav li a { color: white; display:block; padding:3px 0;   }
+#main-nav li a:hover{color: #666  }
+#main-nav li.cur a {background: rgba(62,62,62,0.6); margin: 0 0 0 -28px; text-indent: 28px; color: #999; -moz-border-radius: 0 20px 20px 0; -webkit-border-top-right-radius: 20px; -webkit-border-bottom-right-radius: 20px; border-radius: 0 20px 20px 0;   }
+
+/* Typography */
+
+h2			{text-transform: uppercase; font: 24px Helvetica, serif; margin: 0 0 10px 0; letter-spacing: 3px; }
+h3			{text-transform: uppercase; font: 24px Helvetica, serif; margin: 0 0 10px 0; letter-spacing: 3px; padding:10px 0 5px 0; text-decoration:underline; }
+h4			{text-transform: uppercase; font: 20px Helvetica, serif; margin: 0 0 10px 0; letter-spacing: 3px; padding:10px 0 5px 0; text-decoration:underline; }
+
+p			{letter-spacing: 2px;}
+p2			{letter-spacing: 2px; text-indent: 30pt;}
+
+
+#logo {margin: 0 0 0 15px; z-index: -1;}
+

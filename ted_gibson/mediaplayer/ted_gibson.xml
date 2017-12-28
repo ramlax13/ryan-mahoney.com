@@ -1,0 +1,18 @@
+<rss version="2.0" 
+	xmlns:media="http://search.yahoo.com/mrss/" 
+	xmlns:jwplayer="http://developer.longtailvideo.com/trac/wiki/FlashFormats">
+	<channel>
+		<title>Example media RSS playlist</title>
+
+		<item>
+			<title>Ted Gibson first look</title>
+			<link>http://www.ryan-mahoney.com</link>
+			<description>30 second preview rough</description>
+			<media:credit role="author"></media:credit>
+			<media:content url="../mediaplayer/ted_gibson_rough_preview.flv" />
+			
+		</item>
+		
+	</channel>
+
+</rss>
